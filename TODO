@@ -1,0 +1,7 @@
+TODO:
+
+- optimize textures (colours according to a palette as to diminish size) and test FPS difference via: $ pmap $(ps -C fgfs -o pid=)
+- flatten images before exporting them as png to remove alpha channel (when this is not being used) in order to diminish size even further
+- textures for the front of the airplane looks horrible. Either fix it in Blender (best option) or try to fix this by adjust the textures manually (bad option)
+- top nose texture is not symmetrical for texturing, very difficult to use it
+- AI: the moving part in the black AI has a strange change of angle of its lines -- why is that?
